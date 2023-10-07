@@ -11,11 +11,11 @@
 }
 
 :root {
-    --heading1 : 3rem;
+    --heading1 : 55px;
     --heading2 : 2.8rem;
     --heading3 : 2.75rem;
     --heading4 : 2.25rem;
-    --paragraph1 : 1.5rem;
+    --paragraph1 : 16px;
     --paragraph2 : 1.25rem;
 
     --bg-color: #1A1B25;
@@ -25,11 +25,11 @@
 }
 
 h1,h2,h3,h4,h5,p,li {
-    color: var(--text-color);
+    /* color: var(--text-color); */
 }
 
 body {
-    background-color: var(--base-bg-color-);
+    
 }
 
 .container {
@@ -66,7 +66,7 @@ nav {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: white;
+    background-color: rgb(46, 46, 46);
 }
 
 
@@ -110,7 +110,7 @@ nav {
         gap: 15vh;
         height: 100vh;
         flex-direction: column;
-        background-color: rgb(46, 46, 46);
+        background-color: rgb(255, 255, 255);
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -130,3 +130,115 @@ nav {
 }
 
 /* Header */
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.header-text {
+    margin-top: 8%;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: var(--heading1);
+    color:  #333333;
+}
+
+p {
+    font-size: var(--paragraph1);
+}
+
+.header-section h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-section {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 16px 46px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.btn-cta {
+    background-color: #fcda68;
+    color: #171513;
+    font-weight: 500;
+}
+
+.btn-flat {
+    background-color: transparent;
+}
+
+/* animation */
+
+.animation-skill {
+    background-color: #171513;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.animation-skill p {
+    font-size: 32px;
+}
+
+
+/* benefit */
+
+main {
+    
+    background-image: radial-gradient(circle, #cbcbcbf4 1px, transparent 1px);
+    background-size: 20px 20px; /* Ukuran titik-titik */
+    background-position: center center; /* Posisi pusat latar belakang */
+    background-repeat: repeat; /* Mengulang pola titik-titik */
+    
+    
+}
+
+.benefit-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    padding-top: 100px;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+
+.image-benefit img {
+    width: 490px;
+}
+
+.benefit-text {
+    margin-top: 20%;
+}
+
+.benefit-list {
+    margin-bottom: 30px;
+}
+
+.benefit-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.benefit-section h3 {
+    font-size: 42px;
+}
+
