@@ -29,12 +29,12 @@ h1,h2,h3,h4,h5,p,li {
 }
 
 body {
-    
+    background-color: #F9F9F9;
 }
 
 .container {
-    margin-left: 94px;
-    margin-right: 94px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .nav-logo img{
@@ -141,6 +141,10 @@ nav {
     margin-top: 8%;
 }
 
+.header-image img {
+    height: 80vh;
+}
+
 h5 {
     font-weight: 500;
     font-size: 16px;
@@ -185,8 +189,7 @@ p {
 .animation-skill {
     background-color: #171513;
     color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 10vh;
     text-align: center;
     margin-top: -10px;
     display: flex;
@@ -194,7 +197,9 @@ p {
 }
 
 .animation-skill p {
+    display: flex;
     font-size: 32px;
+    align-items: center;
 }
 
 
@@ -238,7 +243,124 @@ main {
     margin-top: 10px;
 }
 
-.benefit-section h3 {
+h3 {
     font-size: 42px;
 }
 
+/* Achievements */
+
+.achievements-section {
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.achievements-section h3 {
+    margin-bottom: 20px;
+}
+
+.achievements-section img {
+    width: 60%;
+}
+
+/* portofolio card */
+
+.portofolio-section {
+    padding-bottom: 200px;
+}
+
+.portofolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-filter {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-filter {
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-filter-selected {
+    background-color: #fcda68;
+    font-weight: 500;
+}
+
+.card {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    background-color: white;
+    height: 500px;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.card-image {
+    background-image: url(/Img/card-1.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card-text {
+    padding: 10% 6%;
+}
+
+.tech-stack {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.tech-stack img{
+    width: 40px;
+}
+
+.card-desc {
+    font-size: 18px;
+}
+
+.portofolio-section button.btn-cta{
+    display: flex;
+    margin: 50px auto;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20.6px 0px rgba(77, 77, 77, 0.668);
+    scale: 1.05;
+    transition: 0.5s all ease-in-out;
+}
+
+.btn-cta:hover {
+    background-color: #333333;
+    color: #fcda68;
+    transition: 0.5s all ease-in-out;
+}
+
+/* footer */
+
+footer {
+    background-color: white;
+    padding-bottom: 200px;
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: 1fr 0.7fr 0.7fr;
+}
+
+.footer-image img{
+    width: 300px;
+}
+
+.footer-contact .contact img {
+    fill: red;
+}
