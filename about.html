@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gidion Bagas</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="nav-logo">
+                    <a href="/index.html"><img src="/Img/logo.png" alt="" srcset=""></a>
+                </div>
+
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="/Portofolio.html" target="_blank">Portofolio</a></li>
+                    <li class="nav-item"><a href="" target="_blank">Resource</a></li>
+                    <li class="nav-item"><a href="/about.html" target="_blank">About</a></li>
+                    <li class="nav-item"><a href="https://medium.com/@hellodyonz" target="_blank">Blog</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section class="about-section">
+
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <section class="footer-section">
+                <div class="footer-brand">
+                    <div class="footer-image">
+                        <img src="/Img/logo white.png" alt="" srcset="">
+                    </div>
+                    <div class="footer-text">
+                        Are you an agency or a freelancer? I always <br> welcome new opportunities to exchange ideas <br> and to explore collaborations
+                    </div>
+                </div>
+                <div class="footer-list">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Process</li>
+                        <li>Work</li>
+                        <li>Contact</li>
+                        <li>Resources</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <div class="contact">
+                        <img src="/Img/mail.svg" alt="" srcset="">
+                        <h4>Email</h4>
+                        <p>hellodyonz@gmail.com</p>
+                    </div>
+                    <div class="contact">
+                        <img src="/Img/phone.svg" alt="" srcset="">
+                        <h4>Email</h4>
+                        <p>hellodyonz@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = [
+                "/Img/sertif-skilvul.png",
+                "/Img/certificate-festida.jpg",
+                "/Img/sertif-adobe.png",
+                "/Img/certificate-festida2.jpg"
+            ];
+
+            const imgElement = document.querySelector(".achievements-section img");
+            let currentIndex = 0;
+
+            function changeImage() {
+                currentIndex++;
+                if (currentIndex >= images.length) {
+                    currentIndex = 0;
+                }
+                const imageUrl = images[currentIndex];
+                imgElement.src = imageUrl;
+            }
+
+            setInterval(changeImage, 3000); // Ganti gambar setiap 3 detik
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

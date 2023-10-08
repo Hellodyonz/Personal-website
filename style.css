@@ -273,6 +273,11 @@ h3 {
     background-size: cover;
     border-radius: 10px;
 }
+.card-image.fe-nftcat {
+    background-image: url(Img/nft-cat.png);
+    background-size: cover;
+    border-radius: 10px;
+}
 
 .card-text {
     padding: 10% 6%;
