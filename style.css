@@ -439,3 +439,35 @@ h4 {
 .portofolio-section.details-page {
     padding-top: 100px;
 }
+
+/* about page */
+
+.experience-section {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box-experience {
+    background-color: white;
+    width: 100%;
+    padding: 20px 2vw;
+    border-radius: 10px;
+}
+
+.experience-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-section h3 {
+    margin-bottom: 30px;
+}
+
+.box-experience {
+    margin-bottom: 30px;
+}
+
+.experience-section a {
+    display: flex;
+    justify-content: center;
+}

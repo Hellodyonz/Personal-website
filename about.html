@@ -33,8 +33,82 @@
     </header>
     <main>
         <div class="container">
-            <section class="about-section">
+            <section class="header-section">
+                <div class="header-text">
+                <h1>Hello I'm <br>Gidion Bagas Prananta</h1>
+    
+    
+                    <div class="button-section">
+                        <button class="btn btn-cta">Show CV</button>
+                        <button class="btn btn-flat">My Portofolio</button>
+                    </div>
+                </div>
+    
+                <div class="header-image">
+                    <img src="/Img/gidion.png" alt="" srcset="">
+                </div>
+            </section>
 
+            <section class="experience-section">
+                <h3>My Experience</h3>
+                <div class="box-experience">
+                    <div class="experience-head">
+                        <div class="experience-title">
+                            <h4>Skilvul</h4>
+                            <h4>Mentee UI/UX Design #Tech4Impact - Intern</h4>
+                        </div>
+                        <div class="experience-date">
+                            <p>16 Aug - 31 Des 2023</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="experience-desc">
+                        <p>
+                        ● Leading the UI/UX team in developing 2 case studies over 5 months programme.  <br>
+                        ● Able to complete 2 case studies & challenges from scratch which includes research, idea, design, prototyping, and testing withvarious methods <br>
+                        ● Received the best project rank 2 out of 120 teams in the program or among 478 participants programme <br>
+                        ● Able to complete the self-study period with a score of 92 and complete 100% programme <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="box-experience">
+                    <div class="experience-head">
+                        <div class="experience-title">
+                            <h4>HIMTIKA : Share It ( Mini Bootcamp)</h4>
+                            <h4>Web development workshop instructor - Contract</h4>
+                        </div>
+                        <div class="experience-date">
+                            <p>13 - 14 Jun 2022</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="experience-desc">
+                        <p>
+                            ● Instruct 22 vocational high school students to build their first portfolio website from 0 <br>
+                            ● Success Achieved 100% success from the 22 participants who attended the workshop, 22 participants also managed to make their website and get to the hosting stage <br>
+                            ● Doing 7 hours of lessons to students with website development with basic HTML, CSS, Boostrap in 2 day <br>
+                    </div>
+                </div>
+                <div class="box-experience">
+                    <div class="experience-head">
+                        <div class="experience-title">
+                            <h4>Google Developer Student Club - Singaperbangsa University</h4>
+                            <h4>Tech & Curiculum : Technical UI/UX Designer - Seasonal</h4>
+                        </div>
+                        <div class="experience-date">
+                            <p>13 - 14 Jun 2022</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="experience-desc">
+                        <p>
+                            ● Instruct 22 vocational high school students to build their first portfolio website from 0 <br>
+                            ● Success Achieved 100% success from the 22 participants who attended the workshop, 22 participants also managed to make their website and get to the hosting stage <br>
+                            ● Doing 7 hours of lessons to students with website development with basic HTML, CSS, Boostrap in 2 day <br>
+                    </div>
+                </div>
+
+                <a href="https://www.linkedin.com/in/hellodyon/" target="_blank"><button class="btn btn-cta">Show More</button></a>
             </section>
         </div>
     </main>
@@ -75,35 +149,6 @@
             </section>
         </div>
     </footer>
-
-    
-
-
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const images = [
-                "/Img/sertif-skilvul.png",
-                "/Img/certificate-festida.jpg",
-                "/Img/sertif-adobe.png",
-                "/Img/certificate-festida2.jpg"
-            ];
-
-            const imgElement = document.querySelector(".achievements-section img");
-            let currentIndex = 0;
-
-            function changeImage() {
-                currentIndex++;
-                if (currentIndex >= images.length) {
-                    currentIndex = 0;
-                }
-                const imageUrl = images[currentIndex];
-                imgElement.src = imageUrl;
-            }
-
-            setInterval(changeImage, 3000); // Ganti gambar setiap 3 detik
-        });
-    </script>
     <script src="script.js"></script>
 </body>
 </html>
