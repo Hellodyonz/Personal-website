@@ -528,7 +528,7 @@ h4 {
     justify-content: center;
 }
 
-a {
-    color: #171513 !important;
+footer .footer-list li a {
+    color: #ffffff;
 }
 
